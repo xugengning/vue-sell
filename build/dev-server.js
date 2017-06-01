@@ -43,7 +43,7 @@ apiRoutes.get('/goods', (req, res) => {
 })
 
 apiRoutes.get('/ratings', (req, res) => {
-    res.send({
+    res.json({
         errno: 0,
         data: ratings
     })
